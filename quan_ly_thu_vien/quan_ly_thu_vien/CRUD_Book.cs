@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace quan_ly_thu_vien
 {
-    public partial class Main : Form
+    public partial class CRUD_Book : Form
     {
-        public Main()
+        public CRUD_Book()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Login login = new Login();
-            login.Show();
-            this.Hide();
-            login.FormClosed += (s, args) => this.Close();
         }
     }
 }

@@ -16,5 +16,11 @@ namespace quan_ly_thu_vien
         {
             InitializeComponent();
         }
+
+        private void bt_nhaplai_Click(object sender, EventArgs e)
+        {
+            tb_matkhau.Text = "";
+            tb_tendangnhap.Text = "";
+        }
     }
 }
