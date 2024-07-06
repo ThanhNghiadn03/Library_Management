@@ -19,7 +19,7 @@ namespace quan_ly_thu_vien
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
+            GUI.Login login = new GUI.Login();
             login.Show();
             this.Hide();
             login.FormClosed += (s, args) => this.Close();

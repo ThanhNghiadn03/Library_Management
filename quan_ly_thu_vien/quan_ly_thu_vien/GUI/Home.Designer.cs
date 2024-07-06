@@ -36,7 +36,7 @@
             this.btn_thuesach = new System.Windows.Forms.RadioButton();
             this.go = new System.Windows.Forms.Button();
             this.xinchao = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_dangxuat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -118,34 +118,34 @@
             this.go.TabIndex = 6;
             this.go.Text = "Thực hiện";
             this.go.UseVisualStyleBackColor = true;
-            this.go.Click += new System.EventHandler(this.button1_Click);
             // 
             // xinchao
             // 
             this.xinchao.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.xinchao.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.xinchao.ForeColor = System.Drawing.SystemColors.Menu;
-            this.xinchao.Location = new System.Drawing.Point(339, 94);
+            this.xinchao.ForeColor = System.Drawing.Color.Red;
+            this.xinchao.Location = new System.Drawing.Point(349, 95);
             this.xinchao.Name = "xinchao";
             this.xinchao.ReadOnly = true;
             this.xinchao.Size = new System.Drawing.Size(100, 13);
             this.xinchao.TabIndex = 7;
             // 
-            // button1
+            // btn_dangxuat
             // 
-            this.button1.Location = new System.Drawing.Point(707, 27);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(66, 35);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Đăng xuất";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_dangxuat.Location = new System.Drawing.Point(707, 27);
+            this.btn_dangxuat.Name = "btn_dangxuat";
+            this.btn_dangxuat.Size = new System.Drawing.Size(66, 35);
+            this.btn_dangxuat.TabIndex = 8;
+            this.btn_dangxuat.Text = "Đăng xuất";
+            this.btn_dangxuat.UseVisualStyleBackColor = true;
+            this.btn_dangxuat.Click += new System.EventHandler(this.btn_dangxuat_Click);
             // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_dangxuat);
             this.Controls.Add(this.xinchao);
             this.Controls.Add(this.go);
             this.Controls.Add(this.btn_thuesach);
@@ -171,6 +171,6 @@
         private System.Windows.Forms.RadioButton btn_thuesach;
         private System.Windows.Forms.Button go;
         private System.Windows.Forms.TextBox xinchao;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_dangxuat;
     }
 }

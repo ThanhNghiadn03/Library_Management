@@ -10,7 +10,7 @@ namespace quan_ly_thu_vien.DAL
     class DALLogin_Register
     {
         DBAccessControl db;
-        string[] account;
+        public static string[] account;
 
         public DALLogin_Register()
         {
@@ -19,8 +19,6 @@ namespace quan_ly_thu_vien.DAL
             account[0] = null;
             account[1] = null;
         }
-
-        public string[] Account { get => account; set => account = value; }
 
         public bool DALCheckExistAccount(string fullName, string username)
         {
@@ -43,9 +41,9 @@ namespace quan_ly_thu_vien.DAL
                 return false;
             } else
             {
-                Account = new string[]{username, password};
+                account = new string[]{username, password};
                 MessageBox.Show("Đăng nhập thành công");
-                return true;
+                return true; 
             }
         }
 

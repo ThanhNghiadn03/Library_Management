@@ -2,12 +2,14 @@ D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vie
 D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\bin\Debug\quan_ly_thu_vien.exe
 D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\bin\Debug\quan_ly_thu_vien.pdb
 D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\obj\Debug\quan_ly_thu_vien.csprojAssemblyReference.cache
-D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\obj\Debug\quan_ly_thu_vien.Login.resources
 D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\obj\Debug\quan_ly_thu_vien.Main.resources
 D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\obj\Debug\quan_ly_thu_vien.Properties.Resources.resources
 D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\obj\Debug\quan_ly_thu_vien.csproj.GenerateResource.cache
 D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\obj\Debug\quan_ly_thu_vien.csproj.CoreCompileInputs.cache
 D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\obj\Debug\quan_ly_thu_vien.exe
 D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\obj\Debug\quan_ly_thu_vien.pdb
-D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\bin\Debug\AppData\thuvien_database.mdf
-D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\bin\Debug\AppData\thuvien_database_log.ldf
+D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\bin\Debug\AppData\ThuVienDB.mdf
+D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\bin\Debug\AppData\ThuVienDB_log.ldf
+D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\obj\Debug\quan_ly_thu_vien.GUI.Home.resources
+D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\obj\Debug\quan_ly_thu_vien.GUI.Login.resources
+D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\obj\Debug\quan_ly_thu_vien.GUI.Register.resources

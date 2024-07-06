@@ -116,6 +116,7 @@
             this.link_dk.TabIndex = 7;
             this.link_dk.TabStop = true;
             this.link_dk.Text = "Chưa có tài khoản? Đăng ký";
+            this.link_dk.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.link_dk_LinkClicked);
             // 
             // Login
             // 
@@ -139,14 +140,14 @@
 
         #endregion
 
-        public System.Windows.Forms.Label label_dangnhap;
-        public System.Windows.Forms.Label label2;
-        public System.Windows.Forms.Label label3;
-        public System.Windows.Forms.TextBox tb_tendangnhap;
-        public System.Windows.Forms.TextBox tb_matkhau;
-        public System.Windows.Forms.Button bt_nhaplai;
-        public System.Windows.Forms.Button bt_dangnhap;
-        public System.Windows.Forms.LinkLabel link_dk;
+        private System.Windows.Forms.Label label_dangnhap;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox tb_tendangnhap;
+        private System.Windows.Forms.TextBox tb_matkhau;
+        private System.Windows.Forms.Button bt_nhaplai;
+        private System.Windows.Forms.Button bt_dangnhap;
+        private System.Windows.Forms.LinkLabel link_dk;
 
 
     }
