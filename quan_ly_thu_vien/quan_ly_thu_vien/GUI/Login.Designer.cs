@@ -1,4 +1,4 @@
-﻿namespace quan_ly_thu_vien
+﻿namespace quan_ly_thu_vien.GUI
 {
     partial class Login
     {
@@ -105,6 +105,7 @@
             this.bt_dangnhap.TabIndex = 6;
             this.bt_dangnhap.Text = "Đăng Nhập";
             this.bt_dangnhap.UseVisualStyleBackColor = true;
+            this.bt_dangnhap.Click += new System.EventHandler(this.bt_dangnhap_Click);
             // 
             // link_dk
             // 
@@ -138,13 +139,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label_dangnhap;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox tb_tendangnhap;
-        private System.Windows.Forms.TextBox tb_matkhau;
-        private System.Windows.Forms.Button bt_nhaplai;
-        private System.Windows.Forms.Button bt_dangnhap;
-        private System.Windows.Forms.LinkLabel link_dk;
+        public System.Windows.Forms.Label label_dangnhap;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.TextBox tb_tendangnhap;
+        public System.Windows.Forms.TextBox tb_matkhau;
+        public System.Windows.Forms.Button bt_nhaplai;
+        public System.Windows.Forms.Button bt_dangnhap;
+        public System.Windows.Forms.LinkLabel link_dk;
+
+
     }
 }

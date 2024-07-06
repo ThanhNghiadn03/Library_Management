@@ -9,3 +9,5 @@ D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vie
 D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\obj\Debug\quan_ly_thu_vien.csproj.CoreCompileInputs.cache
 D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\obj\Debug\quan_ly_thu_vien.exe
 D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\obj\Debug\quan_ly_thu_vien.pdb
+D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\bin\Debug\AppData\thuvien_database.mdf
+D:\DTU\thirdyear-summer\DotNet\personal project\quan_ly_thu_vien\quan_ly_thu_vien\bin\Debug\AppData\thuvien_database_log.ldf

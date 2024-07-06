@@ -8,10 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace quan_ly_thu_vien
+namespace quan_ly_thu_vien.GUI
 {
     public partial class Login : Form
     {
+
         public Login()
         {
             InitializeComponent();
@@ -21,6 +22,11 @@ namespace quan_ly_thu_vien
         {
             tb_matkhau.Text = "";
             tb_tendangnhap.Text = "";
+        }
+
+        private void bt_dangnhap_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
